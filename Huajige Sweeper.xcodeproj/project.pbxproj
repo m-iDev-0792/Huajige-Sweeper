@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B788800D1DBB59B8002765DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B788800C1DBB59B8002765DB /* AppDelegate.m */; };
+		B78880101DBB59B8002765DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B788800F1DBB59B8002765DB /* main.m */; };
+		B78880131DBB59B8002765DB /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B78880121DBB59B8002765DB /* GameScene.m */; };
+		B78880151DBB59B8002765DB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B78880141DBB59B8002765DB /* GameScene.sks */; };
+		B78880171DBB59B8002765DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B78880161DBB59B8002765DB /* Assets.xcassets */; };
+		B788801A1DBB59B8002765DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B78880181DBB59B8002765DB /* MainMenu.xib */; };
+		B78880251DBB59B8002765DB /* Huajige_SweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B78880241DBB59B8002765DB /* Huajige_SweeperTests.m */; };
+		B78880301DBB59B8002765DB /* Huajige_SweeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B788802F1DBB59B8002765DB /* Huajige_SweeperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B78880211DBB59B8002765DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78880001DBB59B8002765DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78880071DBB59B8002765DB;
+			remoteInfo = "Huajige Sweeper";
+		};
+		B788802C1DBB59B8002765DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B78880001DBB59B8002765DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B78880071DBB59B8002765DB;
+			remoteInfo = "Huajige Sweeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B78880081DBB59B8002765DB /* Huajige Sweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Huajige Sweeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B788800B1DBB59B8002765DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B788800C1DBB59B8002765DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B788800F1DBB59B8002765DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B78880111DBB59B8002765DB /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B78880121DBB59B8002765DB /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B78880141DBB59B8002765DB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B78880161DBB59B8002765DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B78880191DBB59B8002765DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B788801B1DBB59B8002765DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78880201DBB59B8002765DB /* Huajige SweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huajige SweeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78880241DBB59B8002765DB /* Huajige_SweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Huajige_SweeperTests.m; sourceTree = "<group>"; };
+		B78880261DBB59B8002765DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B788802B1DBB59B8002765DB /* Huajige SweeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Huajige SweeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B788802F1DBB59B8002765DB /* Huajige_SweeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Huajige_SweeperUITests.m; sourceTree = "<group>"; };
+		B78880311DBB59B8002765DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B78880051DBB59B8002765DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B788801D1DBB59B8002765DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78880281DBB59B8002765DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7887FFF1DBB59B8002765DB = {
+			isa = PBXGroup;
+			children = (
+				B788800A1DBB59B8002765DB /* Huajige Sweeper */,
+				B78880231DBB59B8002765DB /* Huajige SweeperTests */,
+				B788802E1DBB59B8002765DB /* Huajige SweeperUITests */,
+				B78880091DBB59B8002765DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B78880091DBB59B8002765DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B78880081DBB59B8002765DB /* Huajige Sweeper.app */,
+				B78880201DBB59B8002765DB /* Huajige SweeperTests.xctest */,
+				B788802B1DBB59B8002765DB /* Huajige SweeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B788800A1DBB59B8002765DB /* Huajige Sweeper */ = {
+			isa = PBXGroup;
+			children = (
+				B788800B1DBB59B8002765DB /* AppDelegate.h */,
+				B788800C1DBB59B8002765DB /* AppDelegate.m */,
+				B78880111DBB59B8002765DB /* GameScene.h */,
+				B78880121DBB59B8002765DB /* GameScene.m */,
+				B78880141DBB59B8002765DB /* GameScene.sks */,
+				B78880161DBB59B8002765DB /* Assets.xcassets */,
+				B78880181DBB59B8002765DB /* MainMenu.xib */,
+				B788801B1DBB59B8002765DB /* Info.plist */,
+				B788800E1DBB59B8002765DB /* Supporting Files */,
+			);
+			path = "Huajige Sweeper";
+			sourceTree = "<group>";
+		};
+		B788800E1DBB59B8002765DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B788800F1DBB59B8002765DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B78880231DBB59B8002765DB /* Huajige SweeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				B78880241DBB59B8002765DB /* Huajige_SweeperTests.m */,
+				B78880261DBB59B8002765DB /* Info.plist */,
+			);
+			path = "Huajige SweeperTests";
+			sourceTree = "<group>";
+		};
+		B788802E1DBB59B8002765DB /* Huajige SweeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B788802F1DBB59B8002765DB /* Huajige_SweeperUITests.m */,
+				B78880311DBB59B8002765DB /* Info.plist */,
+			);
+			path = "Huajige SweeperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B78880071DBB59B8002765DB /* Huajige Sweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78880341DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige Sweeper" */;
+			buildPhases = (
+				B78880041DBB59B8002765DB /* Sources */,
+				B78880051DBB59B8002765DB /* Frameworks */,
+				B78880061DBB59B8002765DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Huajige Sweeper";
+			productName = "Huajige Sweeper";
+			productReference = B78880081DBB59B8002765DB /* Huajige Sweeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B788801F1DBB59B8002765DB /* Huajige SweeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B78880371DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige SweeperTests" */;
+			buildPhases = (
+				B788801C1DBB59B8002765DB /* Sources */,
+				B788801D1DBB59B8002765DB /* Frameworks */,
+				B788801E1DBB59B8002765DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B78880221DBB59B8002765DB /* PBXTargetDependency */,
+			);
+			name = "Huajige SweeperTests";
+			productName = "Huajige SweeperTests";
+			productReference = B78880201DBB59B8002765DB /* Huajige SweeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B788802A1DBB59B8002765DB /* Huajige SweeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B788803A1DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige SweeperUITests" */;
+			buildPhases = (
+				B78880271DBB59B8002765DB /* Sources */,
+				B78880281DBB59B8002765DB /* Frameworks */,
+				B78880291DBB59B8002765DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B788802D1DBB59B8002765DB /* PBXTargetDependency */,
+			);
+			name = "Huajige SweeperUITests";
+			productName = "Huajige SweeperUITests";
+			productReference = B788802B1DBB59B8002765DB /* Huajige SweeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B78880001DBB59B8002765DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "何振邦";
+				TargetAttributes = {
+					B78880071DBB59B8002765DB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B788801F1DBB59B8002765DB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B78880071DBB59B8002765DB;
+					};
+					B788802A1DBB59B8002765DB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B78880071DBB59B8002765DB;
+					};
+				};
+			};
+			buildConfigurationList = B78880031DBB59B8002765DB /* Build configuration list for PBXProject "Huajige Sweeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7887FFF1DBB59B8002765DB;
+			productRefGroup = B78880091DBB59B8002765DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B78880071DBB59B8002765DB /* Huajige Sweeper */,
+				B788801F1DBB59B8002765DB /* Huajige SweeperTests */,
+				B788802A1DBB59B8002765DB /* Huajige SweeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B78880061DBB59B8002765DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78880171DBB59B8002765DB /* Assets.xcassets in Resources */,
+				B78880151DBB59B8002765DB /* GameScene.sks in Resources */,
+				B788801A1DBB59B8002765DB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B788801E1DBB59B8002765DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78880291DBB59B8002765DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B78880041DBB59B8002765DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78880101DBB59B8002765DB /* main.m in Sources */,
+				B78880131DBB59B8002765DB /* GameScene.m in Sources */,
+				B788800D1DBB59B8002765DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B788801C1DBB59B8002765DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78880251DBB59B8002765DB /* Huajige_SweeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78880271DBB59B8002765DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B78880301DBB59B8002765DB /* Huajige_SweeperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B78880221DBB59B8002765DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78880071DBB59B8002765DB /* Huajige Sweeper */;
+			targetProxy = B78880211DBB59B8002765DB /* PBXContainerItemProxy */;
+		};
+		B788802D1DBB59B8002765DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B78880071DBB59B8002765DB /* Huajige Sweeper */;
+			targetProxy = B788802C1DBB59B8002765DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B78880181DBB59B8002765DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B78880191DBB59B8002765DB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B78880321DBB59B8002765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B78880331DBB59B8002765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B78880351DBB59B8002765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huajige Sweeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-Sweeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B78880361DBB59B8002765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huajige Sweeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-Sweeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B78880381DBB59B8002765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Huajige SweeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-SweeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huajige Sweeper.app/Contents/MacOS/Huajige Sweeper";
+			};
+			name = Debug;
+		};
+		B78880391DBB59B8002765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huajige SweeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-SweeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huajige Sweeper.app/Contents/MacOS/Huajige Sweeper";
+			};
+			name = Release;
+		};
+		B788803B1DBB59B8002765DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Huajige SweeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-SweeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Huajige Sweeper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B788803C1DBB59B8002765DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Huajige SweeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Huajige.Inc.Huajige-SweeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Huajige Sweeper";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B78880031DBB59B8002765DB /* Build configuration list for PBXProject "Huajige Sweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78880321DBB59B8002765DB /* Debug */,
+				B78880331DBB59B8002765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B78880341DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige Sweeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78880351DBB59B8002765DB /* Debug */,
+				B78880361DBB59B8002765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B78880371DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige SweeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B78880381DBB59B8002765DB /* Debug */,
+				B78880391DBB59B8002765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B788803A1DBB59B8002765DB /* Build configuration list for PBXNativeTarget "Huajige SweeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B788803B1DBB59B8002765DB /* Debug */,
+				B788803C1DBB59B8002765DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B78880001DBB59B8002765DB /* Project object */;
+}
